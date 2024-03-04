@@ -13,7 +13,7 @@ def get_initial_session_states():
         st.session_state.start_datetime = datetime.now()
         st.session_state.start_unixtime = int(time.mktime(st.session_state.start_datetime.timetuple()))
     if "school_name" not in st.session_state:
-        st.session_state.school_name = "John F Kennedy Middle School"
+        st.session_state.school_name = "Neuqua Valley High School"
         st.session_state.initial_message = {"role": "assistant", "content": f"Welcome to {st.session_state.school_name}! I am your AI assistant - how may I help you?", "messageid": "0", "runid": "0", "createdatunix": st.session_state.start_unixtime, "createdatdatetime": st.session_state.start_datetime}
     if "openai_client" not in st.session_state:
         st.session_state.openai_client = OpenAI(api_key=st.secrets.openai.api_key)
