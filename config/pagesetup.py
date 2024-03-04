@@ -191,7 +191,7 @@ def get_sales_assistant_title(varPageNumber):
         with title_columns[0]:
             get_title_no_divider(varPageNumber=varPageNumber)
         with title_columns[1]:
-            st.image('https://s3-us-west-2.amazonaws.com/sportshub2-uploads-prod/files/sites/2520/2020/08/19031312/NVLogo.png', caption='Neuqua Valley High School | Indian Plains District 204') #Streamlit image for branding
+            st.image('https://s3-us-west-2.amazonaws.com/sportshub2-uploads-prod/files/sites/2520/2020/08/19031312/NVLogo.png', caption='Neuqua Valley High School | Indian Plains District 204', use_column_width="auto") #Streamlit image for branding
         st.divider()
 
 # 6. Page Links
