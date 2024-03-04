@@ -6,7 +6,7 @@ ps.get_st_page_config()
 
 
 # 1. Page Title
-ps.get_sales_assistant_title(0)
+ps.get_deans_assistant_title(0)
 
 # 2. Page Overview
 ps.get_overview(0)
